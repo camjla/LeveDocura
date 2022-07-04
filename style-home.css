@@ -1,0 +1,106 @@
+
+.logo
+{
+    width: 38%;
+    margin: 0 auto;
+}
+
+.caixa
+{
+    position: relative;
+    width: 940px;
+}
+nav
+{
+    position: absolute;
+    top: 110px;
+   right: -315px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover /*para mudar o comportamento  no mouse*/
+{
+    color:#f14666;
+    font-size: 25px;
+}
+.title
+{
+    text-align: center;
+    color: #f14666;
+    font-family: 'Birthstone Bounce', cursive;
+    height: 21%;
+    font-size: 79px
+}
+.borda
+{   height: 750px;
+    width: 1450px;
+    border: #666666 2px solid;
+    margin:  auto;
+}
+
+.doces{
+    width: 940px;
+    margin: 0 auto;
+
+}
+.doces li
+{
+    display: inline-block;
+    text-align: center;
+    width: 29%;
+    margin: 0 1.5%;
+    
+}
+.doces li:hover
+{
+    color:#f14666;
+}
+.doces li:hover h2
+{
+font-size: 45px;
+}
+.doces img
+{
+height: 98%;
+width: 98%;
+border: 3px groove  #f14666;
+border-radius: 10px;
+}
+.doces h2
+{
+    color: #f14666;
+    font-size: 35px;
+    font-family: 'Mohave', sans-serif;
+    font-weight: bold;
+}
+.doces p
+{
+    font-family: 'Fredoka One', cursive; 
+}
+.doce-preco
+{
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
+footer
+{
+    color:#f14666;
+    font-family:monospace;
+    font-size: 13px;
+    position:static;
+    bottom:0px;
+    width:100%;
+    list-style: none;
+    opacity: 0.3;
+    text-align: center;
+    font-weight: bold;
+}

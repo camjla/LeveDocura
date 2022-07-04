@@ -1,0 +1,51 @@
+pseudo elementos
+;hover :active :visited :required
+
+pseudo-classes 
+exemplos classe itens:
+pseidps: first-child (o primeiro deles)
+last-child
+nth-child(coloca o num do elemento)
+    deixar gradiente 
+    line-gradient(orange,blue)
+
+    :before
+    {
+        content: "c"
+    }
+    :after
+    permite um css co
+
+    ----------------
+    Seletores avançados
+    possibilidade de selecionar filhos diretos
+    ex 
+    main > p
+    "proximo irmao " img +p 
+    seleciona o paragrafo que vem logo apos de uma imagem
+    img ~ p 
+    iria pegar todo 
+calc (40%-26px)
+ex
+tem como colocar opacidade algo colocar o hover
+
+aombra no elemento> box-shadow
+
+
+************* responsividade**********
+usa a tag 
+<meta name="viewerport" content="width-device-width"
+ele tenta entender como o cell fica 
+p/adaptar no css
+}// para tela
+fazer uma tag 
+@media screen and (max-widht: 480px)
+{
+    .seleciona os elementos
+    {
+        position: static
+        width: auto;
+    }
+
+
+}

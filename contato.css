@@ -1,0 +1,81 @@
+.logo
+{
+    width: 38%;
+    margin: 0 auto;
+}
+.caixa
+{
+    position: relative;
+    width: 940px;
+}
+nav
+{
+    position: absolute;
+    top: 110px;
+   right: -315px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover /*para mudar o comportamento  no mouse*/
+{
+    color:#f14666;
+    font-size: 25px;
+}
+.borda
+{   
+    height: 750px;
+    width: 1450px;
+    border: #666666 2px solid;
+    margin:  auto;
+    background-color:  #FF93A7
+}
+h1
+{
+    text-align: center;
+    color: #000000;
+    font-family: 'Birthstone Bounce', cursive;
+    height: 21%;
+    font-size: 59px
+}
+.contato li
+{
+    display:inline-flex;
+    text-align: center;
+    width: 69%;
+    margin: 20px 0 15px 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+}
+.contato li:hover
+{
+    color:#f14666;
+    font-size: 20px;
+}
+.contato img
+{
+    padding: 8px;
+    margin-left: 52%;
+    height: 80px;
+    width: 80px;
+}
+footer
+{
+    color:#f14666;
+    font-family:monospace;
+    font-size: 13px;
+    position:static;
+    bottom:0px;
+    width:100%;
+    list-style: none;
+    opacity: 0.3;
+    text-align: center;
+    font-weight: bold;
+}

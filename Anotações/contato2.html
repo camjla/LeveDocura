@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Leve Doçura</title>
+        <link rel="stylesheet" href="contato2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&family=Fredoka+One&family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+        <link rel="icon" href="../Leve doçura/img/Logo.png" alt="Logo da Leve doçura" /><!--alt significa ter acessibilidade, descrever o logo por exemplo.-->
+    </head>
+    <body>
+        <header>
+                <div class="caixa">
+                     <img class="logo" src ="../Leve doçura/img/Logo.png">
+                        <nav>
+                            <ul>
+                                <li><a href="contato.html" target="_blank">Contato</a></li>
+                                <li><a href ="entregas.html" target="_blank">Entregas</a></li>
+                                 <li><a href ="lancamento.html" target="_blank">Lançamento</a></li>
+                             </ul>
+                        </nav>
+                    </div>
+        </header>
+        <main>
+            <div class ="borda">
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-padrao" required>
+
+                <label for="telephone">Telefone</label>
+                <input type="text" id="telephone"class="input-padrao" required placeholder="xx xxxxx-xxxx"> 
+
+
+                <label for="adress">Endereco</label>
+                <input type="text" id="adress"class="input-padrao" required placeholder="Rua/Avenida mimipopo, Número 123">
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="55" rows="10" id="Mensagem"class="input-padrao"></textarea>
+                
+                
+                <fieldset><!-- serve para colocar quando se trata de um assunto especifico, como o abaixo-->
+                <legend>Como prefere encomendar?<legend>
+                <label for="radio-email"><input type="radio" name="contato"value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato"value="telefone" id="radio-telefone">Telefone</label>
+                
+                <label for="radio-retirada"><input type="radio"name="contato"value="retirada"id="radio-retirada">Retirada</label>
+                
+
+                </fieldset>
+            <p>Como será a entrega da encomenda?</p>
+            <select>
+                <option>Retirada</option>
+                <option>Delivery</option>
+            </select>
+
+            <label  class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+        
+            <input type="submit"value ="Enviar" class="enviar">
+            
+            </div>
+            </form>
+            <table> <!--para organizar a tabela-->
+                <thead> <!--cabeçalho-->
+                <tr>
+                    <th>Dias</th>
+                    <th></th>Horário</th>
+                </tr>
+            </thead>
+            <tbody><!--meio-->
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h as 20h</td>
+                </tr>
+                <tr>
+                    <td>quinta</td>
+                    <td>8h as 20h</td>
+                </tr>
+                <tr>
+                    <td>sexta</td>
+                    <td>8h as 20h</td>
+                </tr>
+            </tbody>
+            <section>
+                <h3>Ponto de retirada</h3>
+            </section> <!--Para importar mapa, tem q ir no google maps e clicar em html-->
+            </table>
+
+        </main>
+    </body>
+</html>
